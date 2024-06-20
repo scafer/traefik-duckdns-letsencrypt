@@ -19,7 +19,7 @@ This project demonstrates the integration of the following tools to create a sec
 git clone https://github.com/scafer/traefik-duckdns-letsencrypt
 ```
 
-2. Rename the `.env.example` file to `.env` and set the environment variables with your values:
+2. Rename the `example.env` file to `.env` and set the environment variables with your values:
 
 ```
 cd traefik-duckdns-letsencrypt
@@ -38,7 +38,7 @@ docker-compose up -d
 
 ## Usage
 
-To add a new service behind Traefik, simply create a new Docker Compose file in the `services` directory, following the example of the `whoami` service.
+To add a new service behind Traefik, simply create a new entry in the `services` section, following the example of the `whoami` service.
 
 ## Conclusion
 
