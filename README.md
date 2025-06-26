@@ -23,7 +23,7 @@ git clone https://github.com/scafer/traefik-duckdns-letsencrypt
 
 ```
 cd traefik-duckdns-letsencrypt
-mv .env.example .env
+mv example.env .env
 ```
 
 3. Replace `your-duckdns-token` with your DuckDNS token, `your-email` with your email address, and `your-duckdns-domain` with your duckdns domain (ex: your-domain.duckdns.org).
